@@ -4,6 +4,8 @@ This repository contains the code and data sets for linking TOPMed resources to 
 
 The topmed_curies.tsv file contains mappings across several ontologies for each variable and included the variable_phv, data set url, and study url. It was produced by phv_to_pheno.py. The given URLs are to splash pages in dbGAP. No data can be accessed without proper authorization.
 
+UPDATE: phv_to_pheno.py now just outputs the accession ids for the variable, the data set, and the study. The URLs are no longer output.
+
 ## File explanations
 
 2018-10-05_1214_tagged_variables.txt: This file is from TOPMed. It maps each variable to a normalized phenotype term.
